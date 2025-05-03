@@ -1,0 +1,46 @@
+{
+  "hash": "f077bb29",
+  "configHash": "15f169a5",
+  "lockfileHash": "d081485b",
+  "browserHash": "77cb1514",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "58a78a5c",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0da147f3",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "1b944093",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "2146a8c2",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "8e0be7cf",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-2TWLSXLY": {
+      "file": "chunk-2TWLSXLY.js"
+    },
+    "chunk-LABQ442N": {
+      "file": "chunk-LABQ442N.js"
+    }
+  }
+}
