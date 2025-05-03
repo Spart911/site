@@ -1,0 +1,15 @@
+{
+  "appId": "com.macapp.printer",
+  "productName": "MacApp",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*"
+  ],
+  "mac": {
+    "target": ["dmg"],
+    "category": "public.app-category.productivity"
+  }
+} 
