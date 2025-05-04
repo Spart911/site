@@ -10,7 +10,8 @@ function createWindow() {
       nodeIntegration: true,
       contextIsolation: false,
       webSecurity: false,
-      allowRunningInsecureContent: true
+      allowRunningInsecureContent: true,
+      webviewTag: true
     }
   });
 
@@ -24,6 +25,11 @@ function createWindow() {
   // Обработка ошибок загрузки
   mainWindow.webContents.on('did-fail-load', (_event: any, errorCode: number, errorDescription: string) => {
     console.error('Failed to load:', errorCode, errorDescription);
+  });
+
+  // Обработка консольных сообщений
+  mainWindow.webContents.on('console-message', (_event: any, level: number, message: string) => {
+    console.log(`[${level}] ${message}`);
   });
 }
 
