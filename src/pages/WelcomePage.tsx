@@ -26,7 +26,7 @@ const WelcomePage = () => {
           textAlign: 'center',
         }}
       >
-        Добро пожаловать
+        Добро пожаловать УВУ
       </Typography>
 
       <Button
